@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textSize="20sp"
+        android:paddingStart="20dp"
+        android:text="dklsf"
+        android:id="@+id/whichDay"
+        android:gravity="center"
+        />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:id="@+id/whichImage"
+        android:paddingStart="30dp"
+
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:paddingStart="40dp"
+
+        android:id="@+id/whichTemp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:paddingStart="40dp"
+        android:id="@+id/whichSpeed"
+        />
+
+
+</LinearLayout>
