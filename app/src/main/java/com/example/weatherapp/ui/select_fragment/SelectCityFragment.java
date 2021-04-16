@@ -1,4 +1,4 @@
-package com.example.weatherapp.ui.select_Frag;
+package com.example.weatherapp.ui.select_fragment;
 
 import android.os.Bundle;
 
@@ -13,7 +13,7 @@ import com.example.weatherapp.data.model.forecastDays.ForecastForFiveDays;
 import com.example.weatherapp.data.utils.WeatherDataRetriever;
 import com.example.weatherapp.databinding.FragmentSelectCityBinding;
 import com.example.weatherapp.ui.adapters.CityAdapter;
-import com.example.weatherapp.ui.base_Frag.BaseFragment;
+import com.example.weatherapp.ui.base_fragment.BaseFragment;
 
 public class SelectCityFragment extends BaseFragment<FragmentSelectCityBinding> implements CityAdapter.click, WeatherDataRetriever.Callback {
     private final Bundle bundle = new Bundle();
@@ -30,7 +30,7 @@ public class SelectCityFragment extends BaseFragment<FragmentSelectCityBinding> 
         CityAdapter adapter = new CityAdapter(ListOfCities.cities,this);
         bind.recyclerForCities.setAdapter(adapter);
         bind.search.setOnClickListener(v -> {
-
+            click(bind.bySearch.getText().toString().trim());
         });
     }
 

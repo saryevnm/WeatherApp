@@ -1,4 +1,4 @@
-package com.example.weatherapp.ui.base_Frag;
+package com.example.weatherapp.ui.base_fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

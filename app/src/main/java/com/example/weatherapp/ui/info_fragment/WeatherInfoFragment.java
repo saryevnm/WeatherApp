@@ -1,4 +1,4 @@
-package com.example.weatherapp.ui.infoFragment;
+package com.example.weatherapp.ui.info_fragment;
 
 import android.os.Bundle;
 
@@ -15,8 +15,8 @@ import com.example.weatherapp.data.utils.DataParser;
 import com.example.weatherapp.databinding.WeatherInfoBinding;
 import com.example.weatherapp.ui.adapters.DayForecastAdapter;
 import com.example.weatherapp.ui.adapters.FiveDaysForecastAdapter;
-import com.example.weatherapp.ui.base_Frag.BaseFragment;
-import com.example.weatherapp.ui.select_Frag.SelectCityFragment;
+import com.example.weatherapp.ui.base_fragment.BaseFragment;
+import com.example.weatherapp.ui.select_fragment.SelectCityFragment;
 
 import java.util.ArrayList;
 import java.util.Date;
